@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>UlyssesTheMenace</title>
+  
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+	<header>
+	  <div class="logo">
+		<img src="ringa.png" alt="Rengar Logo">
+	  </div>
+	  <nav>
+		<ul>
+		  <li><a href="index.html">Home</a></li>
+		  <li><a href="about.html">About</a></li>
+		  <li><a href="#" id="achievementsLink">Achievements</a></li>
+		  <li><a href="#" id="contactLink">Contact</a></li>
+		</ul>
+	  </nav>
+	</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Welcome</h1>
+    <p>This is my portfolio</p>
+    <a href="explore.html" class="btn">Explore my life haha</a>
+  </div>
+</section>
+
+<section class="about dark-theme">
+  <div class="about-content">
+    <h2>About Me</h2>
+    <p>As an IT student, life is a constant journey of exploration and problem-solving, immersed in the ever-evolving world of technology, where each challenge is an opportunity to learn and innovate. </p>
+    <p>From coding simplecodes to building a whole project for our school's registrar, every day brings new discoveries and the excitement of mastering the digital realm.    </p>
+    <a href="#" class="btn">Explore More</a>
+  </div>
+  <div class="about-image">
+    <img src="rengar.jpg" alt="About Image">
+  </div>
+</section>
+
+
+<section class="menu" id="menu">
+  <h2>Achievements</h2>
+  <div class="menu-items">
+    <div class="menu-item">
+      <img src="ach1.png" alt="Achievement1">
+      <h3>Reaching Mythical Glory</h3>
+      <p>Becoming a Mythical Glory in Mobile Legends represents the culmination of years of study, practice, and mastering the complexities of the game's infinite possibilities.</p>
+    </div>
+    <div class="menu-item">
+      <img src="ach2.png" alt="Achievement2">
+      <h3>Reaching Grandmaster</h3>
+      <p>Reaching grandmaster rank in league of legends requires an unparalleled blend of strategic brilliance, dedication, and relentless pursuit of excellence.</p>
+    </div>
+    <div class="menu-item">
+      <img src="ach3.png" alt="Achievement3">
+      <h3>Reaching Hongkong</h3>
+      <p>Traveling alone offers astonishing opportunities for personal growth, self-discovery, and embracing the unknown, yet it also presents challenges that demand resilience, adaptability, and independence.</p>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="quotes">
+  <h2>Quotes I live by</h2>
+  <div class="quote">
+    <img src="uli.jpg">
+    <p>"Happiness only real when shared."</p>
+    <h4>- Chris McCandless</h4>
+  </div>
+  <div class="quote">
+    <p>"You only fail when you stop trying."</p>
+    <h4>- Albert Einstein</h4>
+  </div>
+</section>
+
+
+<section class="shows">
+  <h2>Favorite Shows</h2>
+  <div class="image-grid">
+    <div class="image-item">
+      <img src="A1.png" alt="Image 1">
+    </div>
+    <div class="image-item">
+      <img src="A2.jpg" alt="Image 2">
+    </div>
+    <div class="image-item">
+      <img src="A3.png" alt="Image 3">
+    </div>
+    <div class="image-item">
+      <img src="R2.jpg" alt="Image 4">
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="contact-container">
+    <h2>Contact Me</h2>
+    <div class="contact-info">
+      <div class="info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <p>Phase 2, Earth st., Oton, Iloilo City, Philippines</p>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-phone-alt"></i>
+        <p>09610116482</p>
+      </div>
+      <div class="info-item">
+        <i class="fas fa-envelope"></i>
+        <p>unava214@gmail.com</p>
+      </div>
+    </div>
+    <form class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-logo">
+      <img src="ringa.png" alt="Logo">
+    </div>
+    <nav class="footer-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Achievements</a>
+      <a href="#">Shows</a>
+      <a href="#">Contact</a>
+    </nav>
+    <div class="footer-social">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+  <p class="footer-text">&copy; 2024 UlyssesTheMenace. All rights reserved.</p>
+</footer>
+
+<script>
+document.getElementById("achievementsLink").addEventListener("click", function(event) {
+  event.preventDefault();
+  document.getElementById('menu').scrollIntoView({ behavior: 'smooth' });
+});
+
+document.getElementById("contactLink").addEventListener("click", function(event) {
+  event.preventDefault();
+  document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+});
+</script>
+
+</body>
+</html>
